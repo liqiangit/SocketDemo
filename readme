@@ -1,0 +1,40 @@
+总结
+NIOSClient 和 clinet 都可以和 EchoServer 互通应答。后台用异步方式，客户端用同步异步都行。关键是缓冲区不同。 
+
+Netty是由JBOSS提供的一个java开源框架。Netty提供异步的、事件驱动的网络应用程序框架和工具，用以快速开发高性能、高可靠性的网络服务器和客户端程序。
+也就是说，Netty 是一个基于NIO的客户、服务器端编程框架，使用Netty 可以确保你快速和简单的开发出一个网络应用，例如实现了某种协议的客户，服务端应用。Netty相当简化和流线化了网络应用的编程开发过程，例如，TCP和UDP的socket服务开发。
+
+基于okhttp 3.8websocket客户端，跟netty实战示例对接
+
+java socket 长连接事例
+http://blog.csdn.net/ljl157011/article/details/19291611
+
+Java NIO 学习(四)--ServerSocketChannel与SocketChannel
+http://blog.csdn.net/wenhuayuzhihui/article/details/51900204
+
+java nio SocketChannel 服务器端与多客户端 信息交互（聊天功能）
+http://blog.csdn.net/tang9140/article/details/39052877
+
+Java基于socket的进程间通信 聊天小程序 
+http://www.cnblogs.com/lantian729308328/p/5659434.html
+
+[Netty] - Netty入门(最简单的Netty客户端/服务器程序) 
+https://www.cnblogs.com/liuming1992/p/4758532.html
+---------------------------------------------------------------------------
+java Socket多线程聊天程序（适合初学者）
+http://blog.csdn.net/m47838704/article/details/47344753
+
+Netty实现按字节解析的socket协议
+http://blog.sina.com.cn/s/blog_46e73e770102vqqc.html
+
+---------------------------------------------------------------------------
+linux安装nginx
+https://www.cnblogs.com/jimisun/p/8057156.html
+简单测试Nginx1.90做TCP协议负载均衡的功能
+https://www.linuxidc.com/Linux/2015-05/117150.htm
+详解centos6和centos7防火墙的关闭
+https://www.jb51.net/article/101576.htm
+测试总结
+windows下tcp负载均衡不可用
+wmware下测试注意要关闭虚拟机和宿主机防火墙
+websocket nginx tcp代理测试正常
